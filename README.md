@@ -72,8 +72,3 @@ For `src/data/menuItems.js`, replace `image: null` with the import.
 - Add-to-cart with topping selection, quantity updates, persistent cart
 - Bootstrap responsive navbar with hamburger menu
 - Bootstrap Carousel gallery
-
-Push to GitHub, then deploy on **Vercel** or **Netlify** (zero config — pick the repo, framework: Vite).
-
-## License
-For educational use — Web Programming Phase 2.
