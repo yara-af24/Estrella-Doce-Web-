@@ -1,29 +1,28 @@
-# Sweet Bakery — React (Phase 2)
+Sweet Bakery — React (Phase 2)
 
 A fully responsive React bakery website built with **Vite + React 18 + React Router v6 + Bootstrap 5**.
 Includes authentication (localStorage), shopping cart with Context API, protected routes, and a Bootstrap gallery carousel.
 
-## Tech Stack
+ Tech Stack
 - React 18 + Vite
 - React Router DOM v6
 - Bootstrap 5 + Bootstrap Icons
 - Context API + localStorage (Auth & Cart)
 
-## Run locally
+ Run locally
 ```bash
 npm install
 npm run dev
 ```
 Open the URL printed in the terminal (usually http://localhost:5173).
 
-## Build for production
+ Build for production
 ```bash
 npm run build
 npm run preview
-```
 
-## Project Structure
-```
+ Project Structure
+
 sweet-bakery/
 ├── public/
 ├── src/
@@ -39,10 +38,9 @@ sweet-bakery/
 ├── package.json
 ├── vite.config.js
 └── README.md
-```
 
-## Where to put your images
-Copy all your Phase 1 images into **`src/assets/images/`** using these filenames, then uncomment / add the imports inside each file as noted:
+
+images
 
 | File you place                              | Used in                                  |
 |---------------------------------------------|------------------------------------------|
@@ -61,14 +59,13 @@ Copy all your Phase 1 images into **`src/assets/images/`** using these filenames
 | `contact-header.jpeg`                       | `src/pages/Contact.jsx`                  |
 | `sweets.jpeg`                               | `src/pages/Cart.jsx` (empty state)       |
 
-### How to import an image in a component
-```jsx
-import cheesecake from '../assets/images/cheesecake.jpeg';
-// then: <img src={cheesecake} alt="Cheesecake" />
-```
+
+/assets/images/cheesecake.jpeg';
+ <img src={cheesecake} alt="Cheesecake" />
+
 For `src/data/menuItems.js`, replace `image: null` with the import.
 
-## Features
+ Features
 - Landing → Home → Menu → About → Contact flow
 - Login / Register saved to `localStorage`
 - Protected routes: `/contact` and Cart "Place Order" require login
@@ -76,7 +73,6 @@ For `src/data/menuItems.js`, replace `image: null` with the import.
 - Bootstrap responsive navbar with hamburger menu
 - Bootstrap Carousel gallery
 
-## Deploy
 Push to GitHub, then deploy on **Vercel** or **Netlify** (zero config — pick the repo, framework: Vite).
 
 ## License
