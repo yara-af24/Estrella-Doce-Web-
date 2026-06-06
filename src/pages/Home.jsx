@@ -27,7 +27,7 @@ export default function Home() {
         <h2 className="script-title" style={{ color: 'white', textAlign: 'center' }}>Our Gallery</h2>
         <div className="gallery-wrapper" style={{ overflow: 'hidden', width: '100%', position: 'relative' }}>
           
-          {/* أنيميشن محسّن: بيتحرك على قد حجم الصور بالظبط لضمان عدم الاختفاء */}
+          
           <style>{`
             @keyframes smoothScroll {
               0% { transform: translateX(0); }
@@ -44,18 +44,18 @@ export default function Home() {
               gap: '20px'
             }}
           >
-            {/* مكررين الـ 6 صور مرتين ورا بعض بقلب لستة واحدة لضمان سلاسة الحركة اللانهائية */}
-            {[1, 2, 3, 4, 5, 6, 1, 2, 3, 4, 5, 6].map((n, index) => (
+            
+            {[1, 2, 3, 4, 5, 6, 1, 2, 3, 4, 5, 6,7,8,9,10,11].map((n, index) => (
               <img
                 key={index}
-                src={'/images/gallery${n}.jpeg'}
+                src={'/images/gallery${index + 1}.jpeg'}
                 alt={'Gallery ${n}'}
                 style={{ 
                   width: '250px', 
                   height: '200px', 
                   borderRadius: '15px', 
                   objectFit: 'cover',
-                  flexShrink: 0 /* هيدا السطر سحري: بيمنع المتصفح من إنه يضغط حجم الصور أو يخفيهم */
+                  flexShrink: 0 
                 }}
               />
             ))}

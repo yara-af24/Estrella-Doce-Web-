@@ -173,7 +173,7 @@ section, main, .home-footer { padding: 60px 20px; }
 .contact-container { max-width: 1200px; margin: 50px auto; padding: 0 20px; }
 .contact-header { text-align: center; margin-bottom: 50px; }
 .contact-header h1 { font-size: 40px; color: #333; margin-bottom: 10px; }
-.header-image { width: 100%; height: 250px; object-fit: cover; border-radius: 15px; margin-bottom: 50px; }
+.header-image { width: 200px; height: 250px; object-fit: cover; border-radius: 15px; margin-bottom: 50px; display: block;}
 .contact-wrapper { display: flex; gap: 50px; flex-wrap: wrap; }
 .contact-info-side { flex: 1; min-width: 300px; }
 .info-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-bottom: 30px; }

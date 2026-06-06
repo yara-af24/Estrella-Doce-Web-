@@ -8,10 +8,10 @@ const aboutImages = [
 ];
 
 const team = [
-  { name: 'Layla', title: 'Head Baker', img: '/images/nabila.jpeg' },
-  { name: 'Sara', title: 'Pastry Chef', img: '/images/tt.jpeg' },
-  { name: 'Mariam', title: 'Cake Designer', img: '/images/stt.jpeg' },
-  { name: 'Nour', title: 'Barista', img: '/images/ig.jpeg' },
+  
+  { name: 'Nabila', title: 'Pastry Chef', img: '/images/nabila.jpeg' },
+  { name: 'Lama', title: 'Cake Designer', img: '/images/nabila.jpeg' },
+  { name: 'Yara', title: 'Marketer', img: '/images/nabila.jpeg' },
 ];
 
 export default function About() {

@@ -1,6 +1,6 @@
 Sweet Bakery — React (Phase 2)
 
-A fully responsive React bakery website built with **Vite + React 18 + React Router v6 + Bootstrap 5**.
+A fully responsive React Sweets website built with **Vite + React 18 + React Router v6 + Bootstrap 5**.
 Includes authentication (localStorage), shopping cart with Context API, protected routes, and a Bootstrap gallery carousel.
 
  Tech Stack
