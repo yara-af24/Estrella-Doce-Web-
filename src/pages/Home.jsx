@@ -48,11 +48,11 @@ export default function Home() {
             {[1, 2, 3, 4, 5, 6, 1, 2, 3, 4, 5, 6,7,8,9,10,11].map((n, index) => (
               <img
                 key={index}
-                src={'/images/gallery${index + 1}.jpeg'}
-                alt={'Gallery ${n}'}
+                src={`/images/gallery${index + 1}.jpeg`}
+                alt="sweet"
                 style={{ 
-                  width: '250px', 
-                  height: '200px', 
+                  width: '300px', 
+                  height: '300px', 
                   borderRadius: '15px', 
                   objectFit: 'cover',
                   flexShrink: 0 
